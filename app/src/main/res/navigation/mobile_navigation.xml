@@ -22,4 +22,12 @@
         android:name="mx.lunainc.tiktokclone.ui.fragments.inbox.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="mx.lunainc.tiktokclone.ui.fragments.profile.ProfileFragment"
+        android:label="@string/me"
+        tools:layout="@layout/fragment_profile" />
+
 </navigation>

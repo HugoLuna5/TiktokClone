@@ -7,6 +7,9 @@
     android:paddingTop="?attr/actionBarSize">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:backgroundTint="@color/black"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
         android:id="@+id/nav_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -18,7 +21,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_nav_menu" />
 
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/nav_host_fragment_activity_home"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
