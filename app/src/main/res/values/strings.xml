@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TiktokClone</string>
+    <string name="app_name">Tiktok</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -20,4 +20,16 @@
     <string name="likes">Likes</string>
     <string name="edit_profile">Edit profile</string>
     <string name="tap_to_add_bio">Tap to add bio</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias, aliquam consectetur ea expedita fuga harum hic id laboriosam libero optio perferendis, possimus quis sequi, suscipit ullam velit vitae.
+</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="default_link">tiktok.com@hugoluna5</string>
+    <string name="bio">Bio</string>
+    <string name="add_bio_profile">Add a bio to your profile</string>
+    <string name="instagram">Instagram</string>
+    <string name="add_ig_profile">Add Instagram to your profile</string>
+    <string name="youtube">YouTube</string>
+    <string name="add_yt_profile">Add YouTube to your profile</string>
+
 </resources>

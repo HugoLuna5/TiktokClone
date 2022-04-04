@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TiktokClone">
         <activity
+            android:name=".ui.activities.edit.EditProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activities.HomeActivity"
             android:exported="true">
             <intent-filter>

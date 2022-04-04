@@ -13,4 +13,16 @@
     <color name="textColorItemVideoTime">#F2F2F2</color>
     <color name="textColorSubtextProfile">#86878B</color>
 
+    <color name="colorStoryUserName">#FFFFFF</color>
+    <color name="colorStoryDescription">#FFFFFF</color>
+    <color name="colorAudioTitle">#FFFFFF</color>
+    <color name="colorMediaOptions">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#858585</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorEditProfileTitleItems">#161722</color>
+    <color name="colorEditProfileItems">#86878B</color>
+    <color name="lineDividerEditProfile">#D0D1D3</color>
+
+
 </resources>

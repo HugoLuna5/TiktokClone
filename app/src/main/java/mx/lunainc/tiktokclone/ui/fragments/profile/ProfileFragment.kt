@@ -1,5 +1,6 @@
 package mx.lunainc.tiktokclone.ui.fragments.profile
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import mx.lunainc.tiktokclone.R
 import mx.lunainc.tiktokclone.adapters.ProfileTabAdapter
 import mx.lunainc.tiktokclone.databinding.FragmentProfileBinding
 import com.google.android.material.tabs.TabLayout.TabLayoutOnPageChangeListener
+import mx.lunainc.tiktokclone.ui.activities.edit.EditProfileActivity
 
 class ProfileFragment : Fragment() {
 
@@ -31,8 +33,10 @@ class ProfileFragment : Fragment() {
 
         configViews()
 
+        events()
         return binding.root
     }
+
 
     private fun configViews() {
         binding.tab.addTab(binding.tab.newTab().setText("").setIcon(R.drawable.ic_tab))
@@ -51,6 +55,12 @@ class ProfileFragment : Fragment() {
             override fun onTabReselected(tab: TabLayout.Tab) {}
         })
 
+    }
+
+    private fun events() {
+        binding.editProfile.setOnClickListener {
+            startActivity(Intent(activity, EditProfileActivity::class.java))
+        }
     }
 
     override fun onDestroyView() {
